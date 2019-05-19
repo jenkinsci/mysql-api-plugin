@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>3.43</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>mysql-api</artifactId>
+    <version>8.0.16-SNAPSHOT</version>
+    <packaging>hpi</packaging>
+
+    <name>MySQL API Plugin</name>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/MySQL+Connector+Java+Plugin</url>
+
+    <properties>
+        <jenkins.version>2.89.4</jenkins.version>
+        <java.level>8</java.level>
+    </properties>
+    <dependencies>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.16</version>
+    </dependency>
+    </dependencies>
+
+    <scm>
+        <connection>scm:git:git@github.com:jenkinsci/mysql-api-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/mysql-api-plugin.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>cleclerc</id>
+            <name>Cyrille Le Clerc</name>
+            <email>cleclerc@cloudbees.com</email>
+        </developer>
+    </developers>
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+</project>
