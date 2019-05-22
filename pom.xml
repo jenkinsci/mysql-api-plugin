@@ -58,8 +58,9 @@
     </pluginRepositories>
     <licenses>
         <license>
-            <name>MIT License</name>
-            <url>http://opensource.org/licenses/MIT</url>
+            <name>The GNU General Public License, v2 with FOSS exception</name>
+            <distribution>repo</distribution>
+            <comments>See https://raw.githubusercontent.com/mysql/mysql-connector-j/8.0.16/LICENSE</comments>
         </license>
     </licenses>
 </project>
