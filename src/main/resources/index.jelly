@@ -24,5 +24,5 @@ THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
 <div>
-    This plugin is a shared library. It provides the MySQL Connector Java jar so that other plugins can consume MySQL Connector Java without duplication and without classpath collisions.
+    This plugin is a shared library. It provides the MySQL Connector Java (v${revision}) jar so that other plugins can consume MySQL Connector Java without duplication and without classpath collisions.
 </div>
