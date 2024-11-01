@@ -40,7 +40,7 @@
   </scm>
 
   <properties>
-    <revision>9.0.0</revision>
+    <revision>9.1.0</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/mysql-api-plugin</gitHubRepo>
     <jenkins.version>2.414.3</jenkins.version>
